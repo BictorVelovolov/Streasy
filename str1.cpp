@@ -19,7 +19,8 @@ long long itc_len(string n) //Number 2
 
 void itc_print_copy_str(string n, int a) //Number 3
 {
-    cout << n[a];
+    for (int i = 0; i < a; i++)
+        cout << n << " ";
 }
 
 void itc_first_end_three(string n) //Number 4
