@@ -15,5 +15,6 @@ string itc_reverse_str(string n); //Слава наоборот (№8)
 string itc_slice_str(string n, int z, int v); //часть слова (№9)
 bool itc_equal_reverse(string n); //Ровный челик или нет (№10)
 string itc_cmp_str(string n, string m, int u); //слова совмещайтес (№11)
+int itc_find_str(string s1, string s2); //Вхождения (№12)
 
 #endif // STREASY_H_INCLUDED
