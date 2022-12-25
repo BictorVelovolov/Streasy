@@ -17,5 +17,6 @@ bool itc_equal_reverse(string n); //Ровный челик или нет (№10
 string itc_cmp_str(string n, string m, int u); //слова совмещайтес (№11)
 int itc_find_str (string s1, string s2); //Вхождения (№12)
 string itc_three_str (string s1, string s2, string s3);//почти Т9 (№13)
+int itc_max_char_on_end(string n);
 
 #endif // STREASY_H_INCLUDED
