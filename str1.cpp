@@ -11,12 +11,11 @@ string itc_hello_str (string n) //Number 1
 
 long long itc_len(string n) //Number 2
 {
-    int s;
-    for (int i = 0; n[i] != '\0'; i++)
-        s = s + 1;
-    return s;
+    int i;
+    for (i = 0; n[i] != '\0'; i++)
+        i = i;
+    return i;
 }
-
 void itc_print_copy_str(string n, int a) //Number 3
 {
     for (int i = 0; i < a; i++)
