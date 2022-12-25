@@ -24,7 +24,7 @@ string itc_cmp_str(string n, string m, int u) //Number 11
     return o;
 }
 
-int itc_find_str(string s1, string s2) //Number 12
+int itc_find_str (string s1, string s2) //Number 12
 {
     int i, l, k;
     string o;
@@ -51,7 +51,7 @@ int itc_find_str(string s1, string s2) //Number 12
     return -1;
 }
 
-string itc_three_str(string s1, string s2, string s3) //Number 13
+string itc_three_str (string s1, string s2, string s3)
 {
     string sp, sv;
     int l, i;
@@ -69,7 +69,7 @@ string itc_three_str(string s1, string s2, string s3) //Number 13
         {
             sv = sv + s1[i - l];
             l = 0;
-            i = i - (l - 1);
+            i = i - (l);
         }
     }
     return sv;
