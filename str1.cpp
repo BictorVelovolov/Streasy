@@ -1,12 +1,11 @@
 #include<iostream>
 #include<string>
 #include"str_easy.h"
-
 using namespace std;
 
 string itc_hello_str (string n) //Number 1
 {
-    return "Hello, " + n;
+    return "Hello," + n;
 }
 
 long long itc_len(string n) //Number 2
@@ -16,6 +15,7 @@ long long itc_len(string n) //Number 2
         i = i;
     return i;
 }
+
 void itc_print_copy_str(string n, int a) //Number 3
 {
     for (int i = 0; i < a; i++)
@@ -24,7 +24,7 @@ void itc_print_copy_str(string n, int a) //Number 3
 
 void itc_first_end_three(string n) //Number 4
 {
-    string l, m;
+    //string l, m;
     long long s, f, i;
     s = itc_len(n);
     if (s > 5)
