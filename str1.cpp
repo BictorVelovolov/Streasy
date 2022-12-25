@@ -41,6 +41,7 @@ void itc_first_end_three(string n) //Number 4
 int itc_count_char_in_str(char b, string n) //Number 5
 {
     int m;
+    m = 0;
     for (int i = 0; n[i] != '\0'; i++)
         if (b == n[i])
         m = m + 1;
