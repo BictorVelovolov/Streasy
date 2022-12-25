@@ -64,6 +64,7 @@ string itc_three_str (string s1, string s2, string s3)
             l++;
             if (sp == s2)
                sv = sv + s3;
+               sp = "\0";
         }
         else
         {
