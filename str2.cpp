@@ -57,7 +57,6 @@ string itc_slice_str(string n, int z, int v) //Number 9
         i = i + 1;
     for (i; i <= v; i++)
         m = m + n[i];
-
     }
     else
         m = "0";
