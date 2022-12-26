@@ -41,6 +41,7 @@ string itc_reverse_str(string n) //Number 8
     string l;
     int len;
     len = itc_len(n);
+    l = "\0";
     for (int i = len - 1; i > 0; i--)
         l = l + n[i];
     l = l + n[0] + "\0";
@@ -51,6 +52,7 @@ string itc_slice_str(string n, int z, int v) //Number 9
 {
     string m;
     int i;
+    m = "\0";
     if (z < v)
     {
          while (i < z)
