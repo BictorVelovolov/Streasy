@@ -41,10 +41,10 @@ string itc_reverse_str(string n) //Number 8
     string l;
     int len;
     len = itc_len(n);
-    l = "\0";
-    for (int i = len - 1; i > 0; i--)
+    l = "";
+    for (int i = len - 1; i >= 0; i--)
         l = l + n[i];
-    l = l + n[0] + "\0";
+    l = l + "\0";
     return l;
 }
 
