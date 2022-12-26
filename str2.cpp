@@ -52,7 +52,7 @@ string itc_slice_str(string n, int z, int v) //Number 9
 {
     string m;
     int i;
-    m = "\0";
+    m = "";
     if (z < v)
     {
          while (i < z)
