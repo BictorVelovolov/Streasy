@@ -5,7 +5,7 @@ using namespace std;
 
 string itc_hello_str (string n) //Number 1
 {
-    return "Hello," + n;
+    return "Hello, " + n;
 }
 
 long long itc_len(string n) //Number 2
