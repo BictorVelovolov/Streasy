@@ -7,6 +7,7 @@ string itc_cmp_str(string n, string m, int u) //Number 11
 {
     string o;
     int i, l, d;
+    o = "\0";
     d = itc_len(n);
     if (m[0] == '\0')
         return n;
@@ -85,7 +86,7 @@ int itc_max_char_on_end(string n) //Number 14
     for (i = 0; n[i] != '\0'; i++)
     {
         z = n[i];
-        if (z > 47 && z < 58 && (n[i+1] == n[i] || n[i] == n[i-1]))
+        if (z > 47 && z < 58)
         {
             g++;
             if (g >= g1)
@@ -94,5 +95,5 @@ int itc_max_char_on_end(string n) //Number 14
         else
                g = 0;
     }
-    return g1 - 3;
+    return g1 - 63;
 }
