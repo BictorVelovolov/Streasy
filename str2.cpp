@@ -57,7 +57,7 @@ string itc_slice_str(string n, int z, int v) //Number 9
     {
          while (i < z)
         i = i + 1;
-    for (i; i < v; i++)
+    for (i; i <= v; i++)
         m = m + n[i];
     }
     else
