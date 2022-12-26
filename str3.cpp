@@ -7,9 +7,9 @@ string itc_cmp_str(string n, string m, int u) //Number 11
 {
     string o;
     int i, l, d;
-    o = "\0";
+    o = "";
     d = itc_len(n);
-    if (m[0] == '\0')
+    if (m == "")
         return n;
     for (i = 0; i < u; i++)
         o = o + n[i];
