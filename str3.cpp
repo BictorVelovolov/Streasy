@@ -21,7 +21,7 @@ string itc_cmp_str(string n, string m, int u) //Number 11
         }
     if (i <= d)
         for (i; n[i] !='\0'; i++)
-            o = o + n[i];
+            o = o + n[i-l];
     return o;
 }
 
